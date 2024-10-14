@@ -141,7 +141,7 @@ def swap(a: int, b: int) -> (int, int):
     return a, b
 ## g. Odd or Even
 def is_odd(n: int) -> bool:
-    return (n & 1) == 1
+    return (n & 1) == 1 
 
 ## h. Upper to Lower Case and Related Problems
 def to_lower_case(char: str) -> str:
@@ -152,7 +152,7 @@ def to_upper_case(char: str) -> str:
 
 ## i. Toggle the Bit
 def toggle_bit(n: int, i: int) -> int:
-    return n ^ (1 << i)
+    return n ^ (1 << i) 
 
 
 
