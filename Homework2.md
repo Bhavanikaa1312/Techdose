@@ -74,8 +74,8 @@ int main() {
 }
 
 
-## 3.// 3. Code to Merge Two Sorted Lists in C++
-
+ ## 3.Code to Merge Two Sorted Lists in C++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
