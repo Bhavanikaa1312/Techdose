@@ -14,19 +14,23 @@ Radix Sort: Out-of-place, Stable
 
 ## 2.Iterative Merge Sort in C++:
 
+### Example Code Snippet:
+
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
+
 void merge(vector<int>& arr, int left, int mid, int right) {
     int n1 = mid - left + 1;
     int n2 = right - mid;
     vector<int> L(n1), R(n2);
-    
+
     for (int i = 0; i < n1; i++)
         L[i] = arr[left + i];
     for (int i = 0; i < n2; i++)
         R[i] = arr[mid + 1 + i];
-        
+
     int i = 0, j = 0, k = left;
     
     while (i < n1 && j < n2) {
@@ -45,6 +49,7 @@ void merge(vector<int>& arr, int left, int mid, int right) {
         arr[k++] = R[j++];
     }
 }
+
 void iterativeMergeSort(vector<int>& arr, int n) {
     for (int curr_size = 1; curr_size < n; curr_size *= 2) {
         for (int left_start = 0; left_start < n - 1; left_start += 2 * curr_size) {
@@ -54,6 +59,7 @@ void iterativeMergeSort(vector<int>& arr, int n) {
         }
     }
 }
+
 int main() {
     vector<int> arr = {12, 11, 13, 5, 6, 7};
     int n = arr.size();
@@ -68,7 +74,7 @@ int main() {
 }
 
 
-## 3. Code to Merge Two Sorted Lists in C++
+## 3.// 3. Code to Merge Two Sorted Lists in C++
 
 #include <iostream>
 #include <vector>
