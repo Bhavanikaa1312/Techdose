@@ -1,7 +1,7 @@
 ### Array
 
 ### 1.Merge 2 Sorted Arrays Without Using Extra Space
-
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -22,7 +22,7 @@ void mergeSortedArrays(int arr1[], int n, int arr2[], int m) {
 }
 
 ### 2.Check Whether the Given Array Is in Sorted Order
-
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -36,6 +36,7 @@ bool isSorted(int arr[], int n) {
 }
 
 ### 3.Count No. of Subarrays With At Most K Unique Characters
+```cpp
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -60,7 +61,7 @@ int subarraysWithAtMostKUnique(vector<int>& arr, int k) {
 }
 
 ### 4.Find Number of Subarrays Where max(SA) - min(SA) <= k
-
+```cpp
 #include <iostream>
 #include <vector>
 #include <deque>
@@ -90,7 +91,7 @@ int countSubarraysWithDiffLessThanK(vector<int>& arr, int k) {
 }
 
 ### 5.First Negative Number in Every Window of Size K
-
+```cpp
 #include <iostream>
 #include <vector>
 #include <deque>
@@ -114,7 +115,7 @@ vector<int> firstNegativeInEveryWindow(vector<int>& arr, int k) {
 }
 
 ### 6.Variable Window Problems
-
+```cpp
 ### (i) Largest/Smallest Subarray Where sum <= S or sum >= S
 
 #include <iostream>
@@ -137,7 +138,7 @@ int largestSubarrayWithSumLessThanOrEqualToS(vector<int>& arr, int S) {
 }
 
 ### (ii) Largest Subarray with K Distinct Characters
-
+```cpp
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -162,7 +163,7 @@ int largestSubarrayWithKDistinct(vector<int>& arr, int K) {
 }
 
 ### (iii) Length of Largest Subarray with No Repeating Characters
-
+```cpp
 #include <iostream>
 #include <unordered_map>
 using namespace std;
@@ -182,7 +183,7 @@ int longestSubarrayWithNoRepeatingChars(string s) {
 }
 
 ### (iv) Minimum Window Substring
-
+```cpp
 #include <iostream>
 #include <string>
 #include <unordered_map>
@@ -221,7 +222,7 @@ string minWindowSubstring(string s, string t) {
 ### 7.Practice Kadane's Algorithm and Moore's Voting Algorithm
 
 ### Kadane’s Algorithm:
-
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -237,7 +238,7 @@ int kadaneAlgorithm(vector<int>& arr) {
 }
 
 ### Moore’s Voting Algorithm:
-
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
